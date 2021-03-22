@@ -5,6 +5,11 @@ through games played against opponents. This uses the the constants set out
 from [538's NBA Elo](https://fivethirtyeight.com/features/how-we-calculate-nba-elo-ratings/). But
 you could inherit and overload the functions to work for any sport you wanted.
 
+To Install:
+```
+pip install elopy
+```
+
 Code Examples:
 
 ```
