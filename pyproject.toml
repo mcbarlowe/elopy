@@ -1,9 +1,14 @@
 [tool.poetry]
 name = "elopy"
-version = "0.1.1"
+version = "0.1.2"
 description = "A package to simplify Elo calculations"
-authors = ["mcbarlowe <mcbarlowe@gmail.com>"]
+authors = ["Matt Barlowe <mcbarlowe@gmail.com>"]
+license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/mcbarlowe/elopy"
+repository = "https://github.com/mcbarlowe/elopy"
+keywords = ["elo", "sports", "basketball", "nba"]
+include = ["LICENSE"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
