@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "elopy"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "A package to simplify Elo calculations"
 authors = ["mcbarlowe <mcbarlowe@gmail.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.6"
