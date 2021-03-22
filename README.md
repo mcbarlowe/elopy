@@ -50,4 +50,6 @@ team_a.play_game(team_b, 15, is_home=False)
 #This means that team a played team b again and beat them by 15 points again as
 the visitor
 
-
+#Then to get each team's Elo rating just access the elo attribute
+print(team_a.elo)
+print(team_b.elo)
