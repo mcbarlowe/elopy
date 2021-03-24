@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "elopy"
-version = "0.1.2"
+version = "0.1.3"
 description = "A package to simplify Elo calculations"
 authors = ["Matt Barlowe <mcbarlowe@gmail.com>"]
 license = "MIT"

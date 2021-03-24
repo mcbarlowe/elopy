@@ -20,12 +20,26 @@ def test_mov_multiplier():
 
 
 def test_point_spread():
-    pass
+    team_a = Elo(1600)
+    team_b = Elo(1500)
+
+    assert round(team_a.point_spread(team_b)) == 7
 
 
 def test_new_season():
-    pass
+
+    team_a = Elo(1600)
+    team_a._new_season(0.75, 1500)
+
+    assert team_a.elo == 1575
 
 
 def test_play_game():
-    pass
+
+    team_a = Elo(1600)
+    team_b = Elo(1500)
+
+    team_a.play_game(team_b, 7)
+
+    #write some assertions here when I feel like doing the math by hand
+
