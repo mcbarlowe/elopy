@@ -57,10 +57,13 @@ class Elo:
         """
         if is_home:
             hca = self._hca
+            elo = self.elo + hca
+            opponent.elo = opponent.elo
         else:
-            hca = 0
+            elo = self.elo
+            opponent.elo = opponent.elo + opponent._hca
 
-        return 1 / (10 ** ((-1 * ((self.elo + hca) - opponent.elo)) / 400) + 1)
+        return 1 / (10 ** ((-1 * ((elo) - opponent.elo)) / 400) + 1)
 
     def point_spread(self, opponent: "Elo", is_home: bool = True) -> float:
         """
